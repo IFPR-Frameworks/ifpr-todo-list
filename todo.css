@@ -1,0 +1,34 @@
+body {
+
+    background: blue;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.todo-container {
+    background: #fff;
+    border-radius: 5px;
+}
+
+.todo-container h1 {
+    font-family: 'Passero One', cursive;
+}
+
+.todo-list ul {
+    padding-left: 0;
+    
+}
+
+.todo-list li {
+    list-style: none;
+    padding-top: 10px;
+}
+
+.todo-list li .todo-activity {
+    padding-left: 5px;    
+}
+
+.todo-list li .todo-activity.done {
+    text-decoration: line-through;
+}
+
